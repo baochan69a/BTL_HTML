@@ -1,0 +1,55 @@
+#DISC_CONTAINER{
+    padding: 15px 0;
+    overflow: hidden;
+}
+#DISC_TITLE{
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.titleMain{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.img{
+    vertical-align: center;
+    width: 33%;
+    height: auto;
+}
+.titleDetail{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.disc-div{
+    position: absolute;
+    margin-right: 100px;
+}
+.disc-table{
+    font-size: 1em;
+    margin: auto;
+}
+.disc-table td{
+    vertical-align: top;
+    font-size: 1em;
+    padding: 10px;
+}
+.disc-table td.text{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1em;
+}
+td.chb{
+    text-align: center !important;
+    font-size: 1.2em !important;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+}
+.checked1{
+    color: green;
+}
+.checked2{
+    color: red;
+}
