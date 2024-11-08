@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Cụ Lập Báo Cáo Thần Số Học Và Luận Giải Chi Tiết Nhất</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="start-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar nav-expand-md">
+                        <a class="navbar-brand text-white" href="thansohoc.html">
+                            <img src="img/tracuuthansohoc.png" alt class="nav-img-size">
+                        </a>
+                        <div class="navbar-collapse text-left" id="navBarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-search"></i>
+                                        Tra cứu
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 0 !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-tint"></i>
+                                                Thần số học
+                                            </a>
+                                            <a class="dropdown-item" href="thansohocchocon.html">
+                                                <i class="fas fa-child"></i>
+                                                Thần số học cho con
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Trắc nghiệm DISC
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Trắc nghiệm MBTI
+                                            </a>
+                                            <a class="dropdown-item" href="tuvi.html">
+                                                <i class="fas fa-tint"></i>
+                                                Lập lá số tử vi
+                                            </a>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-shopping-bag"></i>
+                                        Mua Vip
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 0 !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-tint"></i>
+                                                Mua Vip thần số học
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-child"></i>
+                                                Mua Vip thần số học cho con
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Mua Vip luận giải tử vi
+                                            </a>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <p class="flex_dai">
+                                    <a class="nav-link" href="dangky.html" >
+                                        Đăng ký / 
+                                    </a>
+                                   <a class="nav-link" href="dangnhap.html"> Đăng nhập</a>
+                                    </p>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-language"></i>
+                                        Ngôn ngữ
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 0 !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" style="font-size: 14px;" href="thansohoc.html">
+                                                <i class="fas fa-check"></i>
+                                                Tiếng Việt
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                English
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                Português (Bồ Đào Nha)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                Español (Tây Ban Nha)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                Français (Tiếng Pháp)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                Deutsch (Tiếng Đức)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                中文-简体 (Trung Quốc)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                日本語 (Nhật Bản)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                ภาษาไทย (Thái Lan)
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                Bahasa Indonesia
+                                            </a><a class="dropdown-item" href="thansohoc.html">
+                                                Bahasa Malaysia
+                                            </a>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container" id="result-content" unselectable="on" style="display: table;min-height: calc(100vh - 100px);">
+        <div id="willBeReset" style="vertical-align: middle;display: table-cell;padding-top:20px;padding-bottom:40px;">
+            <div class="initial-carousel-container content-container carousel-container" style="margin: 0px auto 15px!important;">
+                <div class="signs-carousel">
+                    <div class="sign-container" style="margin: 0px auto 10px!important;width: 200px;height: 200px;">
+                        <p class="sign-bg"></p>
+                        <p class="sign-image pulse"></p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center m-b-10" style="line-height: 1.5;font-size: 16px;color:#ffed00;"><b>DỰ ĐOÁN CHÍNH XÁC</b><br/> Thành công đường đời, điểm mạnh yếu, tiềm năng sự nghiệp, các giai đoạn thuận lợi - khó khăn, tương hợp tình duyên, hôn nhân,...</p>
+            <div style="background: #0000006b;padding:5px;border-radius: 8px;margin: -5px;font-size: 13px;">
+                <form id="form-numerology">
+                    <p class="text-white m-b-5 font-weight-bold">Nhập họ tên khai sinh:</p>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <div class="input-group">
+                                <input type="text" id="full_name" name="full_name" value="" class="form-control" placeholder="Nhập đầy đủ họ tên khai sinh">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-t-10">
+                        <p class="text-white m-b-5 font-weight-bold">Tên thường dùng nếu có (VD: Ngọc Anna, Nhím,...)</p>
+                        <div class="form-row">
+                            <div class="col-8">
+                                <div class="input-group">
+                                    <input type="text" id="name" name="name" value="" class="form-control" placeholder="Nhập tên thường dùng nếu có">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <select class="custom-select" id="gender" name="gender">
+                                    <option value='0'>Giới tính</option><option value='1'>Nam</option><option value='2'>Nữ</option><option value='3'>Khác</option>                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-t-10">
+                        <p class="text-white m-b-5 font-weight-bold">Ngày/tháng/năm sinh dương lịch</p>
+                        <div class="form-row">
+                            <div class="col-4">
+                                <select class="custom-select" id="day" name="day">
+                                    <option value="01">Ngày 01</option><option value="02">Ngày 02</option><option value="03">Ngày 03</option><option value="04">Ngày 04</option><option value="05">Ngày 05</option><option value="06">Ngày 06</option><option value="07">Ngày 07</option><option value="08">Ngày 08</option><option value="09">Ngày 09</option><option value="10">Ngày 10</option><option value="11">Ngày 11</option><option value="12">Ngày 12</option><option value="13">Ngày 13</option><option value="14">Ngày 14</option><option value="15">Ngày 15</option><option value="16">Ngày 16</option><option value="17">Ngày 17</option><option value="18">Ngày 18</option><option value="19">Ngày 19</option><option value="20">Ngày 20</option><option value="21">Ngày 21</option><option value="22">Ngày 22</option><option value="23">Ngày 23</option><option value="24">Ngày 24</option><option value="25">Ngày 25</option><option value="26">Ngày 26</option><option value="27">Ngày 27</option><option value="28">Ngày 28</option><option value="29">Ngày 29</option><option value="30">Ngày 30</option><option value="31">Ngày 31</option>                            </select>
+                            </div>
+                            <div class="col-4">
+                                <select class="custom-select" id="month" name="month">
+                                    <option value="01">Tháng 01</option><option value="02">Tháng 02</option><option value="03">Tháng 03</option><option value="04">Tháng 04</option><option value="05">Tháng 05</option><option value="06">Tháng 06</option><option value="07">Tháng 07</option><option value="08">Tháng 08</option><option value="09">Tháng 09</option><option value="10">Tháng 10</option><option value="11">Tháng 11</option><option value="12">Tháng 12</option>                            </select>
+                            </div>
+                            <div class="col">
+                                <input type="number" name="year" id="year" value="" class="form-control" placeholder="Năm sinh">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-xl-6">
+                            <div class="m-t-15" style="border-radius: 4px;border:solid 1px #bdbdbd;padding:10px;">
+                                <p class="text-white font-weight-bold m-b-0"><input type="checkbox" id="checkCamp" name="checkCamp" value="1" > <label for="checkCamp" class="m-b-0" style="cursor: pointer;">Xem tương hợp tình duyên, hôn nhân</label></p>
+                                <div class="m-t-10 text-white" id="boxCamp" style="display: none">
+                                    <div class="form-row m-b-10">
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <input type="text" name="full_name_2" value="" class="form-control" placeholder="Nhập họ tên của người yêu/vợ/chồng">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-4">
+                                            <select class="custom-select" name="day_2">
+                                                <option value="01">Ngày 01</option><option value="02">Ngày 02</option><option value="03">Ngày 03</option><option value="04">Ngày 04</option><option value="05">Ngày 05</option><option value="06">Ngày 06</option><option value="07">Ngày 07</option><option value="08">Ngày 08</option><option value="09">Ngày 09</option><option value="10">Ngày 10</option><option value="11">Ngày 11</option><option value="12">Ngày 12</option><option value="13">Ngày 13</option><option value="14">Ngày 14</option><option value="15">Ngày 15</option><option value="16">Ngày 16</option><option value="17">Ngày 17</option><option value="18">Ngày 18</option><option value="19">Ngày 19</option><option value="20">Ngày 20</option><option value="21">Ngày 21</option><option value="22">Ngày 22</option><option value="23">Ngày 23</option><option value="24">Ngày 24</option><option value="25">Ngày 25</option><option value="26">Ngày 26</option><option value="27">Ngày 27</option><option value="28">Ngày 28</option><option value="29">Ngày 29</option><option value="30">Ngày 30</option><option value="31">Ngày 31</option>                                        </select>
+                                        </div>
+                                        <div class="col-4">
+                                            <select class="custom-select" name="month_2">
+                                                <option value="01">Tháng 01</option><option value="02">Tháng 02</option><option value="03">Tháng 03</option><option value="04">Tháng 04</option><option value="05">Tháng 05</option><option value="06">Tháng 06</option><option value="07">Tháng 07</option><option value="08">Tháng 08</option><option value="09">Tháng 09</option><option value="10">Tháng 10</option><option value="11">Tháng 11</option><option value="12">Tháng 12</option>                                        </select>
+                                        </div>
+                                        <div class="col">
+                                            <input type="number" name="year_2" value="" class="form-control" placeholder="Năm sinh">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xl-6">
+                            <div class="m-t-15" style="border-radius: 4px;border:solid 1px #bdbdbd;padding:10px;">
+                                <p class="text-white font-weight-bold m-b-0"><input type="checkbox" id="checkPhone"> <label for="checkPhone" class="m-b-0" style="cursor: pointer">Xem cả số điện thoại hợp</label></p>
+                                <div class="form-row m-t-10" id="boxPhone" style="display: none">
+                                    <div class="col">
+                                        <textarea type="text" name="phones" id="inputPhone" rows="3" class="form-control" placeholder="Nhập tối đa 5 số điện thoại, mỗi dòng là 1 số"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-t-20">
+                        <button class="button" type="submit"><i class="fas fa-search"></i> Tra cứu</button>
+                    </div>
+                </form>
+    
+    
+    
+                <div class="m-t-15 text-left" style="padding:10px;border-radius: 10px;background: #ffffffd4;">
+                    <p class="text-left m-b-5">
+                        We have added more new languages for numerology reports.<br/>
+                        <em class="fs-13">Chúng tôi đã cập nhật thêm nhiều ngôn ngữ mới cho các báo cáo thần số học.</em></p>
+                    <p class="text-left m-b-5"><b>CHÚ THÍCH:</b><br/>
+                        - Nếu ngày sinh trên giấy tờ (chứng minh thư, bằng lái, khai sinh,...) và ngày sinh dương lịch thật của bạn khác nhau thì cuộc đời bạn sẽ có xáo trộn của cả 2 ngày sinh này. Bạn nên tra cứu cả hai để biết thêm, tuy nhiên kết quả sẽ thiên về ngày sinh dương lịch!<br/>
+                        - Tên thường dùng là tên mọi người thường dùng để gọi bạn hoặc một danh xưng mà bạn thường dùng, tên này sẽ bù trừ vào biểu đồ ngày sinh của bạn. Nếu bạn không có tên thường gọi, hệ thống sẽ tự lấy tên từ họ tên khai sinh của bạn để tính bù trừ trong biểu đồ tổng hợp.<br/>
+                        - Số chủ đạo tuy rất quan trọng nhưng không thể hiện hết toàn bộ thông tin thần số của bạn. Để xem kết quả tra cứu chính xác nhất, hãy kết hợp tất cả các chỉ số mà chúng tôi tính toán cho bạn!</p>
+                    <p class="text-left m-b-8">
+                        Bạn có thể tải lại các file báo cáo thần số học đã tra cứu tại <a href="account?a=history&type=1">Lịch sử tra cứu</a><br/>
+                        Ngoài ra, để tra cứu thêm thần số học cho con dưới 15 tuổi, bạn vui lòng xem <a href="than-so-hoc-cho-con" target="_blank">tại đây</a>. Tra cứu <a href="than-so-hoc-cho-con" target="_blank">Thần số học cho con</a> được thầy Louis Nguyễn nghiên cứu dành riêng cho các bậc phụ huynh trên hành trình đồng hành cùng các con.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div id="part-2">
+            <form id="sm-2">
+                <div class="text-white text-center" style="margin-bottom:-10px;margin-top:20px;font-size: 22px;font-weight: bold;">SỐ CHỦ ĐẠO</div>
+                <div class="mandala-wrapper-inner" style="display: block;">
+                    <div class="mandala-container" id="mandala-1">
+                        <div class="madala-object animated zoomIn" style="display: block;"></div>
+                    </div>
+                    <div class="mandala-number pulse" style="animation-duration: 1s; animation-fill-mode: both;" id="date_val">10</div>
+                </div>
+                <div class="p-2">
+                    <div id="tinhCachNoiTroi" class="text-white" style="font-style: italic;"></div>
+                    <div class="f-2">
+                        <button type="submit" class="button">Xem chi tiết luận giải</button>
+                    </div>
+                </div>
+            </form>
+        </div> 
+        <div id="part-3">
+            <div class="text-white text-center" style="margin-bottom:-10px;margin-top:20px;font-size: 22px;font-weight: bold;">
+                BÁO CÁO THẦN SỐ HỌC
+            </div>
+            <p class="text-white text-center" style="margin-top:20px;font-size: 22px; text-align: center !important;">
+                <span style="color: #ffed00;">
+                    <b id="show-fn"></b>
+                    <br>
+                    <b id="show-d"></b>/
+                    <b id="show-m"></b>/
+                    <b id="show-y"></b>
+                </span>
+            </p>
+
+
+            
+            <div class="text-left m-t-10 box-bg" id="duongdoi">
+                <p class="font-weight-bold m-b-1" style="font-size:15px">1. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ: <span class="text-success" style="font-weight: bold;" id="duongdoi1"></span></p>
+                <p style="font-size:12px;line-height: 1.3;cursor: pointer" class="m-b-8">Ý nghĩa của chỉ số này là ... <em class="text-primary showIndexContent">(Xem thêm)</em></p>
+                <p class="font-italic m-b-8 m-t-1 description" style="display: none">Chỉ số này hé lộ con đường mà bạn sẽ trải qua trong cuộc đời này. Nó cho bạn thấy bạn sẽ gặp phải những trải nghiệm như thế nào, và bạn học được gì sau những trải nghiệm đó. Nó cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn sẽ sống.</p>
+                <p class="content" id="duongdoi2"></p>
+            </div>
+                    
+                     
+                     <div class="text-left m-t-10 box-bg" id="chisonam">
+                         <p class="font-weight-bold m-b-5">2.CÁC CHỈ SỐ NĂM</p>
+                         <p class="font-italic description">Những con số này cho biết ở mỗi năm bạn nên tập trung định hướng phát triển theo con số nào. Thường thì cuộc đời sẽ tự đẩy bạn đi theo những con số này. Nếu đi lệch ra bạn thường sẽ bị cảm thấy cuộc sống mất cân bằng hoặc bất an. Còn nếu đi đúng hướng bạn thường cảm thấy rất bình an và thuận lợi.
+    Lưu ý: Sau khi sử dụng VIP, mỗi năm bạn vào lại website tra cứu hoặc tải lại file để xem luận giải 3 năm tiếp theo và các nội dung luận giải mới nếu có!</p>
+                         <div style="background-color: #fff;padding: 13px 5px 8px 5px;border-radius: 8px;">
+                             <table class="text-center result m-b-5">
+                                 <tbody>
+                                     <tr>
+                                         <td class="nam">Năm 2024</td>
+                                         <td class="ttu" id="nam1"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="nam">Năm 2025</td>
+                                         <td class="ttu" id="nam2"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="nam">Năm 2026</td>
+                                         <td class="ttu" id="nam3"></td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                             <p class="m-t-20 text-center text-danger">Mục này cho biết bạn nên đi theo hướng nào trong những năm sắp tới để đạt thành công. Bạn cần nâng cấp Vip để xem được luận giải chi tiết của mục này.</p>
+                         </div>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisothang">
+                         <p class="font-weight-bold m-b-0">3.CÁC CHỈ SỐ THÁNG</p>
+                         <p class="font-italic description">Những con số này cho biết ở mỗi tháng sẽ có những điều gì có khả năng xảy ra và bạn nên tập trung làm việc như thế nào, theo con số nào nhưng ở mức độ bao quát thấp hơn chỉ số năm.
+    Lưu ý: Sau khi sử dụng VIP, mỗi tháng bạn vào lại website tra cứu hoặc tải lại file để xem luận giải 3 tháng tiếp theo và các nội dung luận giải mới nếu có!</p>
+                         <div style="background-color: #fff;padding: 13px 5px 8px 5px;border-radius: 8px;">
+                             <table class="text-center result m-b-5">
+                                 <tbody>
+                                     <tr>
+                                         <td class="nam">Tháng 11/2024</td>
+                                         <td class="ttu" id="thang1"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="nam">Tháng 12/2024</td>
+                                         <td class="ttu" id="thang2"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="nam">Tháng 1/2025</td>
+                                         <td class="ttu" id="thang3"></td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                             <p class="m-t-20 text-center text-danger">Mục này cho biết bạn nên làm gì trong những tháng sắp tới để mọi việc thuận lợi. Bạn cần nâng cấp Vip để xem được luận giải của mục này.</p>
+                         </div>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisosomenh">
+                         <p class="font-weight-bold m-b-1">4. CHỈ SỐ SỨ MỆNH CỦA BẠN LÀ: <span class="text-success font-weight-bold" id="sumenh"></span></p>
+                         <p class="font-italic description">Trong Thần số học, chỉ số sứ mệnh giúp bạn biết cách đạt được mục tiêu của bạn, lớn và nhỏ. --Sứ mệnh khác với số đường đời. Con số đường đời của bạn ám chỉ đến mục đích tổng thể lớn hơn của bạn. Chỉ số sứ mệnh của bạn tập trung nhiều hơn vào các đặc điểm, tính cách của bạn. Nhưng số đường đời và số mệnh của bạn có thể đi đôi với nhau. Theo thần số học, số đường đời của bạn cho bạn biết bạn đến cuộc đời này để làm gì, số sứ mệnh của bạn mô tả cách bạn tiếp tục thực hiện nó.
+    Phép tính đơn giản của chúng tôi xác định số sứ mệnh giúp bạn xác định các đặc điểm chính của mình và nơi bạn xuất sắc trong cuộc sống. Không chỉ một giai đoạn của cuộc đời, mà con số này tác động vào mọi giai đoạn của cuộc đời bạn.
+    Bạn có thể chọn một con đường đi, nhưng nó có thể không phải lúc nào cũng đúng. Chỉ số này giúp xác định con đường nào là con đường phù hợp sẽ khiến bạn hài lòng và mãn nguyện.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="duongdoi_sumenh">
+                         <p class="font-weight-bold m-b-1">5. TƯƠNG QUAN ĐƯỜNG ĐỜI - SỨ MỆNH:<span class="text-success font-weight-bold" id="duongdoi_sumenh1"></span> </p>
+                         <p class="font-italic description">Chỉ số đường đời và chỉ số sứ mệnh là hai yếu tố có mối quan hệ chặt chẽ với nhau, cùng tồn tại trong một người. Chỉ số đường đời cho biết mục đích tổng thể của một người trong cuộc sống, còn chỉ số sứ mệnh cho biết cách thức một người thực hiện mục đích đó. 
+    Vì vậy, khi chỉ số đường đời và sứ mệnh của bạn bổ sung hoặc cộng hưởng/tương hợp với nhau, những điểm mạnh trong tính cách của bạn sẽ được thúc đẩy và thể hiện rõ ràng hơn.
+    Ngược lại, nếu chỉ số đường đời và sứ mệnh của bạn bị đối đầu hoặc mâu thuẫn, một số năng lượng tích cực có thể bị mờ nhạt. Bên cạnh đó, bạn có thể cảm thấy bối rối và khó khăn trong việc đưa ra quyết định, nội tâm nhiều khi bị mâu thuẫn.
+    Tuy nhiên, bạn vẫn có thể hoá giải những đối đầu, xung đột đó nếu nỗ lực học hỏi, thay đổi và phát triển bản thân.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="thuthach_sumenh">
+                         <p class="font-weight-bold m-b-1">6. CHỈ SỐ THỬ THÁCH SỨ MỆNH CỦA BẠN LÀ: <span class="text-success font-weight-bold">2</span></p>
+                         <p class="font-italic description">Chỉ số này cho biết những kiểu thử thách thường gặp nhất trong suốt cuộc đời mà bạn sẽ phải vượt qua nó. Bạn hãy nhớ theo thần số học, một thách thức không phải là một mối đe dọa. Đây là thử thách bắt nguồn từ họ tên khai sinh của bạn, nó nói về những lựa chọn mà bạn có thể thực hiện sẽ cải thiện hoàn cảnh chung của mình.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisotruongthanh">
+                         <p class="font-weight-bold m-b-1">7. CHỈ SỐ TRƯỞNG THÀNH CỦA BẠN LÀ: <span class="text-success font-weight-bold" id="truongthanh"></span></p>
+                         <p class="font-italic description">Số trưởng thành của bạn cho biết hướng thành công và mong muốn tiềm ẩn dần dần xuất hiện vào khoảng tuổi từ 40 trở lên (một số người sớm hơn hoặc muộn hơn). Mục tiêu cơ bản này bắt đầu xuất hiện khi bạn hiểu rõ hơn về bản thân.
+    Với sự hiểu biết về bản thân, bạn sẽ nhận thức rõ hơn về con người của mình, mục tiêu thực sự của bạn trong cuộc sống là gì và bạn muốn đặt ra hướng đi nào cho cuộc đời mình.--Tóm lại, đây là món quà của sự trưởng thành: Bạn không còn lãng phí thời gian và năng lượng cho những thứ không thuộc bản sắc đặc biệt của riêng bạn.
+    Cho dù hiện tại bạn đang ở độ tuổi nào, cuộc sống của bạn đang được chuyển sang một hướng cụ thể, hướng tới một mục tiêu rất cụ thể. Mục tiêu đó có thể được xem như một phần thưởng hoặc sự hoàn thành một lời hứa tiềm ẩn trong những nỗ lực hiện tại của bạn, mà bạn thường không biết điều đó một cách có ý thức. Trong khi các đặc điểm của con số này thường được nhìn thấy trong thời thơ ấu, chúng ta có xu hướng mất dần các khía cạnh này cho đến khi lớn lên. Nhưng dù sao thì cuộc sống của chúng ta cũng luôn bị ảnh hưởng bởi nó.
+    Số trưởng thành của bạn bắt đầu có tác động sâu sắc hơn đến cuộc sống của bạn sau 35 tuổi - khoảng thời gian bạn bước vào chu kỳ Đỉnh cao thứ hai của mình. Ảnh hưởng của số này tăng đều đặn khi bạn dần cao tuổi hơn.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>  
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="nangluctruongthanh">
+                         <p class="font-weight-bold m-b-1">8. CHỈ SỐ NĂNG LỰC TRƯỞNG THÀNH CỦA BẠN LÀ:<span class="text-success font-weight-bold" id="chisonangluc"></span> </p>
+                         <p class="font-italic description">Chỉ số này cho bạn biết cần phải làm gì để có thể nhanh chóng đưa các bài học mà cuộc đời đã dạy bạn vào việc hoàn thành sứ mệnh của cuộc đời. Hay nói cách khác, nó là sự kết nối giữa đường đời của bạn và sứ mệnh của bạn. Nếu chỉ số này trùng với năng lực tự nhiên của bạn thì thật là tuyệt vời!</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisolinhhon">
+                         <p class="font-weight-bold m-b-1">9. CHỈ SỐ LINH HỒN CỦA BẠN LÀ: <span class="text-success font-weight-bold" id="linhhon"></span> </p>
+                         <p class="font-italic description">Linh hồn, sự khao khát từ sâu bên trong của mỗi người. Chỉ số này hé lộ linh hồn hay sâu thẳm trong bạn mong muốn bạn trở thành con người như thế nào thì mới cảm thấy thỏa mãn và trọn vẹn. Nói cách khác, nếu bạn có những đặc điểm tích cực của chỉ số này, linh hồn bạn sẽ cảm thấy hạnh phúc.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="duongdoi_linhhon">
+                         <p class="font-weight-bold m-b-1">10. TƯƠNG QUAN ĐƯỜNG ĐỜI - LINH HỒN:  <span class="text-success font-weight-bold" id="duongdoi_linhhon1"></span> </p>
+                         <p class="font-italic description">Chỉ số đường đời và chỉ số linh hồn là hai yếu tố có mối quan hệ chặt chẽ với nhau, cùng tồn tại trong một người. Chỉ số đường đời cho biết năng lượng tổng quát của một người (các điểm mạnh điểm yếu, xu hướng tính cách, các bài học trong cuộc đời, bản ngã nguyên thủy,...); còn chỉ số linh hồn cho biết mong muốn, khao khát sâu bên trong của mỗi người.
+    Vì vậy, khi chỉ số đường đời và linh hồn của bạn bổ sung hoặc cộng hưởng/tương hợp với nhau, bạn sẽ cảm thấy hài lòng và thỏa mãn với hầu hết những gì mình đang làm; kiên trì và quyết tâm vượt qua mọi khó khăn để đạt được mục tiêu.
+    Ngược lại, nếu chỉ số đường đời và linh hồn của bạn bị đối đầu hoặc mâu thuẫn, bạn có thể bị mắc kẹt và gặp khó khăn trong việc đưa ra quyết định, nội tâm bị mâu thuẫn, thiếu động lực và sự quyết tâm để thực hiện mục tiêu của mình.
+    Tuy nhiên, bạn vẫn có thể hoá giải những đối đầu, xung đột đó nếu nỗ lực học hỏi, thay đổi và phát triển bản thân.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="thuthach_linhhon">
+                         <p class="font-weight-bold m-b-1">11. CHỈ SỐ THỬ THÁCH LINH HỒN CỦA BẠN LÀ:  <span class="text-success font-weight-bold">4</span> </p>
+                         <p class="font-italic description">Linh hồn mong muốn được trải nghiệm và trưởng thành, mọi nguyên liệu cho sự trưởng thành đó không bao giờ hoàn hảo, và sự trưởng thành không bao giờ xảy ra nếu không có đấu tranh.
+    Chỉ số thử thách linh hồn này đại diện cho những trở ngại mà linh hồn mang theo khi nhập thể để bạn bắt đầu kiếp sống này, vượt qua chúng là một nhiệm vụ quan trọng trong suốt cuộc đời. Hiểu về chỉ số linh hồn và thử thách của nó có thể nói lên nhiều điều về mục đích hoặc sứ mệnh của bạn trong cuộc sống.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisonhancach">
+                         <p class="font-weight-bold m-b-1">12. CHỈ SỐ NHÂN CÁCH CỦA BẠN LÀ:  <i class="fas fa-eye-slash text-danger"></i> </p>
+                         <p class="font-italic description">Bạn biết bạn là ai. Bạn biết tâm trí của bạn, suy nghĩ của bạn, ý kiến của bạn và có một cảm giác về tính cách của bạn. Tuy nhiên, những người khác không nhìn bạn như cách bạn nhìn thấy chính mình.
+    Chỉ số này sẽ giúp bạn nhìn thấy những gì mình gửi ra thế giới. Bạn sẽ hiểu tại sao một số người rời bỏ bạn, một số ở lại với bạn và một số không bao giờ cố gắng. Nó cực kỳ quan trọng về mặt số học vì nó sẽ cho biết những gì bạn gửi ra bên ngoài và từ đó người khác đánh giá và nhìn nhận bạn như thế nào.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="thuthach_nhancach">
+                         <p class="font-weight-bold m-b-1">13. CHỈ SỐ THỬ THÁCH NHÂN CÁCH CỦA BẠN LÀ:   <i class="fas fa-eye-slash text-danger"></i> </p>
+                         <p class="font-italic description">Thái độ và suy nghĩ của bất kỳ một ai về bản thân đều ảnh hưởng tới sức khỏe, sự thịnh vượng, mối quan hệ, đời sống tinh thần, ... của người đó.
+    Chỉ số về nhân cách thể hiện phản hồi mà bên ngoài (người khác) cảm thấy chúng ta về các lựa chọn, suy nghĩ, lời nói và việc làm của chúng ta. Khi bạn không hài lòng với hoàn cảnh của mình, chính chỉ số này sẽ thể hiện phản ứng với hoàn cảnh đó - nó có thể tạo ra một kế hoạch hành động phù--hợp theo khía cạnh tích cực, hoặc tạo ra suy nghĩ tiêu cực như giận dữ, tự phê bình, phòng thủ hoặc chống đối.
+    Những suy nghĩ và cảm xúc tiêu cực này có thể phá hoại kế hoạch của bạn. Nếu không có kế hoạch nào được thực hiện, chúng sẽ thu hút những hoàn cảnh khó khăn hơn, điều này có thể dẫn đến những xáo trộn về thể chất và tinh thần. Và chỉ số thử thách nhân cách sẽ cho bạn biết những gì bạn làm để đối diện với những tình huống như vậy.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisodiemyeu">
+                         <p class="font-weight-bold m-b-1">14. CÁC CHỈ SỐ ĐIỂM YẾU CỦA BẠN LÀ:   <i class="fas fa-eye-slash text-danger"></i> </p>
+                         <p class="font-italic description">Các chỉ số này thể hiện những điểm yếu của bạn mà kiếp trước bạn chưa khắc phục được hoặc có thể ngay ở kiếp này còn tồn đọng. Nên sự hoàn thành của cuộc đời bạn là khắc phục được các số còn thiếu này.</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="chisononghiep">
+                         <p class="font-weight-bold m-b-1">15. CÁC CHỈ SỐ NỢ NGHIỆP CỦA BẠN LÀ:   <i class="fas fa-eye-slash text-danger"></i> </p>
+                         <p class="font-italic description">Chỉ số này thể hiện các bài học cụ thể mà bạn cần chinh phục trong kiếp này vì đã không được học chúng ở kiếp trước. Mỗi chỉ số nợ nghiệp lại có bài học và gánh nặng riêng. Tất cả các nghiệp này đều có số 1 đứng đầu tức là đều do cái tôi mà ra. Nếu bạn học được cách bỏ đi cái tôi của mình và đức nhẫn nhịn sẽ khắc phục được rất nhiều các nhược điểm và nợ nghiệp cho kiếp sau bạn nhé!</p>
+                         <p class="m-t-20 text-danger">Bạn cần nâng cấp Vip để xem được luận giải của mục này!</p>
+                     </div>
+                     <div class="text-left m-t-10 box-bg" id="bieudosucmanh"><p class="font-weight-bold m-b-1" style="font-size:15px">16. BIỂU ĐỒ SỨC MẠNH CỦA BẠN (rất quan trọng)</p>
+                        <p class="font-italic m-b-8 m-t-1 description">Biểu đồ này còn được gọi là biểu đồ ngày sinh do được tạo ra từ ngày sinh, biểu đồ này thể hiện sức mạnh nguyên thủy của bạn. Nó cho thấy tổng quan các ưu nhược điểm về năng lực, sức mạnh của bạn (thể chất, tinh thần, trí tuệ) và cho biết rất nhiều các điểm mạnh điểm yếu của bạn.
+                            Tóm lại biểu đồ này giống như đề bài toán mà vũ trụ gửi cho bạn, bạn cần hiểu đề để giải được bài toán thì cuộc sống của bạn sẽ cân bằng và tốt đẹp hơn nhiều.
+                            Lưu ý rằng tên thường dùng của bạn có thể bù trừ vào những điểm yếu của biểu đồ này, vì vậy hãy tìm hiểu thêm biểu đồ tổng hợp để đặt một tên mới cho bạn nếu cần thiết. Tên mới này có thể dùng ở facebook, zalo,...
+                        </p>
+                        <div style="background: #fff;padding:13px 5px 8px 5px;border-radius: 8px;">
+                                    <table class="m-auto text-center font-weight-bold" id="bieudosucmanh1">
+                                        <tbody><tr>
+                                            <td class="border-b border-r bd"></td>
+                                            <td class="border-b border-r bd"></td>
+                                            <td class="border-b bd"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border-b border-r bd"></td>
+                                            <td class="border-b border-r bd"></td>
+                                            <td class="border-b bd"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border-r bd"></td>
+                                            <td class="border-r bd"></td>
+                                            <td class="bd"></td>
+                                        </tr>
+                                    </tbody></table>
+                                    <p class="font-weight-bold m-t-10 m-b-10 text-center" style="font-size:14px">Biểu đồ sức mạnh (Biểu đồ ngày sinh) của bạn</p><p class="m-t-10 text-center text-danger">Mục này giải thích chi tiết về biểu đồ sức mạnh và giải pháp của chúng tôi cho bạn. Bạn cần nâng cấp Vip để xem được luận giải của mục này.</p></div></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="report-details" style="padding-top: 0">
+        <div class="white-section container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 style="font-weight: 500; font-size: 18px; text-align: justify;color: #fff;">Tạo báo cáo thần số học cho riêng bạn | Tra cứu online hoàn toàn miễn phí</h1>
+                        <p style="font-weight: 500; font-size: 18px; text-align: justify;color: #11173d;">Bạn ở đây vì bạn khao khát được biết mình <i>thực sự</i> là ai, người khác nhìn nhận bạn như thế nào, bạn nắm bắt được cơ hội gì để trở nên GIÀU CÓ và HẠNH PHÚC hơn…</p>
+                        <p style="font-size: 16px; text-align: justify;color: #11173d;">Hoặc có lẽ đó là để hiểu những "sự trùng hợp" kỳ lạ đã và đang xuất hiện trong cuộc sống của bạn gần đây, như <strong>việc lặp lại các số 11:11</strong> hoặc 333 xuất hiện ở những nơi kỳ lạ nhất. Dù là bất cứ lý do là gì, bạn đã tìm đến trang web này là tìm đến đúng nơi rồi.</p>
+                        <p style="font-size: 16px; text-align: justify;color: #11173d;">
+                            Như bạn sắp thấy, những con số ảnh hưởng đến cuộc sống của bạn theo nhiều cách đẹp đẽ, bí ẩn và có thể tiết lộ nhiều hơn những gì bạn từng nghĩ có thể về tính cách, tiềm năng và <strong>mục đích sống thực sự của bạn</strong>.</p>
+                        <p style="font-size: 16px; text-align: justify;color: #11173d;">
+                            Thần số học là 1 ngành khoa học 4000 năm tuổi dựa trên toán học của vũ trụ, bằng cách xem xét <strong>ý nghĩa của tên và ngày sinh của bạn</strong>, chúng tôi có thể khám phá ra nhiều sự thật ngạc nhiên ẩn dấu trong <strong>3 biểu đồ và hơn 20 chỉ số</strong> của riêng bạn, bao gồm cả điểm mạnh, điểm yếu, mối quan hệ giữa những việc bạn làm và con đường đi tới <strong>hạnh phúc</strong> thực sự của bạn.</p>
+                    </div>
+                    <div class="col-sm-5"> <img src="https://xem.tracuuthansohoc.com/uploads/images/numerolog-octagons.png" alt="" class="img-responsive pull-right" style="max-height: 450px;"></div>
+                    <div class="col-12">
+                        <div class="text-dark" style="margin: 20px 0px; padding: 15px;border-radius: 20px; background: #f6f6f6;font-size: 12px; text-align: justify">
+                            <em>Bạn lưu ý, thần số học giống như một tấm bản đồ để chỉ cho bạn những điểm mạnh điểm yếu trong bản ngã của bạn, những con đường bạn nên đi theo để có được hạnh phúc và cuộc đời viên mãn. Bạn muốn đạt tới đích đều phải vất vả nỗ lực kiên trì rất nhiều trên đường đời; có người có thể sẽ nhanh tới được đích, nhưng cũng có người thì không tới được. Khi đọc những luận giải về kết quả tra cứu của bạn, bạn nên đặt câu hỏi cho chính mình để hiểu mình hơn và biết cần làm gì để đạt được hạnh phúc và thành công trong cuộc đời nhé. Chúc bạn và người thân luôn an lành!</em>
+                            <br>- <b>Louis Nguyen</b> -
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 40px;padding-bottom: 40px;margin-bottom: -50px; text-align: justify">
+            <div class="primary-container">
+                <p style="font-size: 18px;">Trong <strong>Các Chỉ Số Thần Số Học</strong> được tính toán cho riêng bạn, chúng tôi tính toán <strong>Chỉ Số Đường Đời</strong>, <strong>Kim Tự Tháp Thần Số Học</strong>, <strong>Biểu
+                        Đồ Sức Mạnh Của Bạn</strong>, &amp; <strong>26 chỉ số khác</strong> để tìm ra</p>
+                <ul>
+                    <li style="font-size: 14px;">Tại sao những sự việc thường xảy ra với bạn.</li>
+                    <li style="font-size: 14px;">Những khía cạnh tiềm ẩn trong tính cách của bạn, cơ hội trong tương lai, tài năng bẩm sinh và những món quà bí mật ẩn trong biểu đồ thần số học của bạn (và cách sử dụng chúng để đạt được điều bạn thực sự muốn)...</li>
+                    <li style="font-size: 14px;">Con đường hứa hẹn nhất để đi trong cuộc đời bạn...</li>
+                    <li style="font-size: 14px;">Mong muốn sâu sắc nhất của bạn và những gì bạn có thể làm để cuối cùng đạt được nhận thức sâu sắc hơn về bản thân và tự tin hơn ...</li>
+                    <li style="font-size: 14px;">Những điều chưa đúng mà bạn thường đặt sự quan tâm của mình vào đó và làm thế nào bạn có thể “chuyển đổi” tư duy một cách chính xác và dễ dàng ...</li>
+                    <li style="font-size: 14px;">Những thách thức sắp tới và những bài học bạn phải học trong cuộc sống này cũng như những cơ hội chưa được khám phá và để giúp cuộc sống của bạn trở nên tốt đẹp hơn ...</li>
+                    <li style="font-size: 14px;"><strong>Và còn nhiều nữa ...</strong></li>
+                </ul>
+                <br>
+                <p style="font-size: 18px; text-align:center">Hơn 6.000.000+ người tin tưởng tracuuthansohoc đã có được <strong>báo cáo thần số học</strong> của riêng họ, và còn nhiều nữa....</p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    
+
+    <footer style="margin-top: 50px; background-color: #15143e; background-repeat: no-repeat; ; background-position: center 20px;">
+        <div class="container" style="padding: 20px 15px;">
+            <div class="row">
+                <div class="col-lg-4" style="flex: 0 0 33.333333%;">
+                    <div style="display: inline-block;line-height: inherit;">
+                        <img src="https://xem.tracuuthansohoc.com/uploads/images/logo-white.png" style="width: 60px;"> <span style="font-size: 25px;color: white;">Tra cứu thần số học</span>
+                    </div>
+                    <div>
+                        <div class="container" style="position: relative; padding: 0;">
+                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="https://blog.nature.org/wp-content/uploads/2022/01/AZ_AZ160526_D300-scaled.jpg" width="350" height="197"></a>
+                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="img/logo.png" height="50" width="50" style="position: absolute;top: 10px; left: 10px;border: 2px solid white;"></a>
+                            <div style=" position: absolute; top: 10px; left: 65px;">
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" style="max-width: 240px; color: #fff;font-size: 18px;display: inline-block; overflow: hidden; text-overflow: ellipsis;white-space: nowrap;line-height: 1.35;font-weight: 400;margin-bottom: -5px;" target="_blank">
+                                    Tra Cứu Thần Số Học Louis Nguyễn
+                                </a>
+                                <div style="color: #fff;font-size: 12px;">19.373 người theo dõi</div>
+                            </div>
+                            <div style="position: absolute;bottom: 0;right: 0;left: 0;padding: 8px;">
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" target="_blank">
+                                    <button style="border: 1px solid white;line-height: 22px; background-color: white;color: #4b4f56;font-size: 12px;border-radius: 2px;padding:0 8px;font-weight: bold">
+                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/UXtr_j2Fwe-.png" width="12px" height="12px" style="overflow: hidden; object-fit: cover; "> Theo dõi trang
+                                    </button>
+                                </a>
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" target="_blank">
+                                    <button style="border: 1px solid white;line-height: 22px; background-color: white;color: #4b4f56;font-size: 12px;border-radius: 2px;padding:0 8px; position: absolute; right: 10px;font-weight: bold">
+                                    <img src="https://tse3.mm.bing.net/th?id=OIP.jGtsTua7sYWQGnJN6iiClAHaHa&pid=Api&P=0&h=220" width="15px" height="15px" style="overflow: hidden; object-fit: cover; "> Chia sẻ
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="color: white !important;margin-bottom: 10px; margin-top: 20px;">Hãy chia sẻ trang web để lan tỏa giá trị bạn nhé!</p>
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftracuuthansohoc.com%2F&amp;layout=button_count&amp;size=large&amp;appId=885165052298832&amp;width=112&amp;height=28" width="112" height="28" style="border:none;overflow:hidden"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="flex: 0 0 33.333333%">
+                    <h6 style="color: #fff; margin-bottom: 25px; padding-top: 10px;">THÔNG TIN CHUYỂN KHOẢN THANH TOÁN</h6>
+                    <div style="font-size:13px;line-height: 2; text-align: left !important;">
+                        <p style="margin-bottom: 10px; color: #b7b7b7;">
+                            <b>- Vietnamese Bank: Vietcombank</b><br>
+                            STK: <span id="text-to-copy1">9962984269</span> <button class="copy-button" data-copy-target="text-to-copy1" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button><br>
+                            Chủ TK: Nguyễn Thị Thu Trang                    </p>
+                        <p style="margin-bottom: 10px; color: #b7b7b7;">
+                            <b>- Momo: Nguyễn Thị Thu Trang <span id="text-to-copy2">0962984269</span> </b>
+                            <button class="copy-button" data-copy-target="text-to-copy2" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button>
+                        </p>
+                        <p style="margin-bottom: 10px; color: #b7b7b7;">
+                            <b>* NỘI DUNG CHUYỂN KHOẢN: số điện thoại của bạn</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="flex: 0 0 33.333333%">
+                    <h6 style="color: #fff; margin-bottom: 25px; padding-top: 10px; font-weight: 500 ;">LIÊN HỆ</h6>
+                    <ul style="font-size:13px;line-height: 2; list-style: none;">
+                        <li><p class="content1" style="color: #b7b7b7;"><i style="font-size: 12px;font-weight: 900;display: inline-block;"></i> Hotline: <b id="text-to-copy3">0962984269</b> <button class="copy-button" data-copy-target="text-to-copy3" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button><br>
+                                <a href="https://zalo.me/0962984269" target="_blank"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-zalo-min.png" style="height:30px;margin-left:10px;margin-right:10px;"></a>
+                                <a href="https://wa.me/+84962984269" target="_blank"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-whatsapp-min.png" style="height:30px;margin-right:10px;margin-left:10px;"></a>
+                                <a href="sms:0962984269"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-sms-min.png" style="height:25px;margin-right:10px;"></a>
+                                <a href="tel:0962984269"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-call-min.png" style="height:25px;margin-right:10px;"></a>
+                            </p>
+                        </li>
+                        <li><p style="color: #b7b7b7;"><i class="fas fa-envelope"></i> Email: tracuuthansohoc@gmail.com</p></li>
+                        <li><p style="color: #b7b7b7;"><i class="fas fa-map-marker-alt"></i> Địa chỉ: 132 Hàm Nghi, Phường Bến Thành, Quận 1, TP Hồ Chí Minh.</p></li>
+                                            <li><a href="https://tracuuthansohoc.com/chinh-sach-bao-mat/"><p style="color: #b7b7b7;">Chính sách bảo mật</p></a></li>
+                        <li><a href="https://tracuuthansohoc.com/dieu-khoan-su-dung/"><p style="color: #b7b7b7;">Điều khoản sử dụng</p></a></li>
+                                            <li><a href="purchase"><p style="color: #b7b7b7;">Mua lượt Vip</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="border-top: 1px solid rgb(48, 48, 96); padding: 10px; text-align: center;color: #b7b7b7;display: block;">
+            <div class="container">
+                <p style="margin-top: 0; margin-bottom: 0 ;">Copyright ©2024 tracuuthansohoc.com | Louis Nguyễn | Thông tin trên trang web mang tính tham khảo.</p>
+            </div>
+        </div>
+        <script>
+            function copyText() {
+                const targetId = event.target.getAttribute('data-copy-target');
+                const textToCopy = document.getElementById(targetId).innerText;
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    alert('✔️ Copied!');
+                });
+            }
+            const copyButtons = document.querySelectorAll('.copy-button');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', copyText);
+            });
+        </script>
+    
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

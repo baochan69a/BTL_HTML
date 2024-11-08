@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    justify-content: center !important; 
+    background: url(img/vutrunganha.jpg);
+    font-size: 12px !important;
+    flex-direction: column;
+}
+.main-box{
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-left: 35%;
+    text-align: center !important;
+    align-items: center !important;
+    margin-bottom: 10px;
+}
+.box_dai{
+    width: 150%;
+    max-width: 500px;
+    min-height: 700px;
+    padding: 1.75rem !important;
+}
+.headed_dai{
+    text-decoration: none;
+}
+.text-white{
+    color: white;
+}
+.logo-size{
+    max-height: 30px !important;
+}
+.forn-size{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.font{
+    padding-top:0px ;
+    font-family: Helvetica, "sans-serif";
+    color: white;
+    font-size: 20px;
+}
+.form-group {
+    margin-bottom: 1.75rem;
+}
+.form-raw{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+element .style{
+    width: 100%;
+    margin-left: 8px;
+    position: relative;
+}
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.country-select {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    background-color: rgba(243, 246, 249, 0.36);
+    border-radius: 5px;
+    width: 160px;
+    margin-right: 15px;
+    margin-left: 0;
+    color: white;
+    appearance: none;
+}
+select:focus{
+    background-color: white; /* Màu nền trắng khi focus */
+    color: black; /* Màu chữ đen khi focus */
+}
+.phone-input {
+    padding: 15px; 
+    font-size: 14px; 
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+    margin-right: 0px;
+    background-color: rgba(243, 246, 249, 0.36);
+    width: 250px;
+    color: white;
+}
+.input-1{
+    margin-top: 50px;
+    font-size: 14px; 
+    border-radius: 10px; 
+    background-color: rgba(243, 246, 249, 0.36);    
+    width: 97%;
+    padding: 15px; 
+}
+.phone-input::placeholder {
+    color: white;
+}
+.input-1::placeholder {
+    color: white;
+}
+.check{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.agree-2{
+    margin-left: 90px;
+    text-decoration: none;
+    color: white;
+}
+.agree-1 + label{
+    position: relative;
+    padding-left: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.agree-1 + label:before {
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 40px;
+    border: 5px solid white;
+    border-radius: 4px;
+    background-color: rgba(243, 246, 249, 0.36);   
+}
+.button{
+    margin-top: 80px;
+}
+.button-1{
+    color: white;
+    width: 35%;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+.dai1{
+    margin-top: 40px;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+.ngonngu{
+    padding: 7px;
+    width: 100%;
+    background-color: #0d0e25;
+    color: white;
+    font-family: Helvetica, "sans-serif" !important;
+    font-size: 15px;
+}

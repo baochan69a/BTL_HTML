@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dangky.css">
+        <title>Đăng ký</title>
+</head>
+<body>
+        <div class="main-box">
+                <div class="box_dai">
+                        <div>
+                                <a href="#" class="text-white forn-size headed_dai">
+                                        <img src="img/logotsh.png" class="logo-size" alt="logo">
+                                        Tra cứu thần số học
+                                </a>
+                        </div>
+                        <div class="font">
+                                <h3 style="font-size: 18px;">Đăng ký tài khoản mới</h3>
+                                <p style="font-size: 12px;">Tạo tài khoản để tra cứu đầy đủ toàn bộ các chỉ số</p>
+                        </div>
+                        <form action="singup_dai">
+                                <div class="form-group">
+                                        <div class="form-row">
+                                                <div class="col-4"> 
+                                                        <select id="mySelect" class="country-select" >
+                                                                <option value="-99">-Chọn quốc gia-</option>
+                                                                <option value="+84">Việt Nam (+84)</option>
+                                                                <option value="+1">Mỹ (+1)</option>
+                                                                <option value="+81">Nhật Bản (+81)</option>
+                                                                <option value="+82">Hàn Quốc (+82)</option>
+                                                                <option value="+44">Anh (+44)</option>
+                                                                <option value="+33">Pháp (+33)</option>
+                                                                <option value="+49">Đức (+49)</option>
+                                                                <option value="+91">Ấn Độ (+91)</option>
+                                                                <option value="+55">Brazil (+55)</option>
+                                                                <option value="+61">Úc (+61)</option>
+                                                                <option value="+34">Tây Ban Nha (+34)</option>
+                                                                <option value="+39">Ý (+39)</option>
+                                                                <option value="+46">Thụy Điển (+46)</option>
+                                                                <option value="+41">Thụy Sĩ (+41)</option>
+                                                                <option value="+7">Nga (+7)</option>
+                                                                <option value="+52">Mexico (+52)</option>
+                                                                <option value="+65">Singapore (+65)</option>
+                                                                <option value="+27">Nam Phi (+27)</option>
+                                                                <option value="+61">New Zealand (+61)</option>
+                                                                <option value="+90">Thổ Nhĩ Kỳ (+90)</option>
+                                                                <option value="+66">Thái Lan (+66)</option>
+                                                                <option value="+62">Indonesia (+62)</option>
+                                                                <option value="+63">Philippines (+63)</option>
+                                                                <option value="+353">Ireland (+353)</option>
+                                                                <option value="+45">Đan Mạch (+45)</option>
+                                                                <option value="+32">Bỉ (+32)</option>
+                                                                <option value="+420">Cộng hòa Czech (+420)</option>
+                                                                <option value="+381">Serbia (+381)</option>
+                                                        </select>
+                                                        <input type="text" id="Phone" class="phone-input" placeholder="Số điện thoại nhận mã kích hoạt">
+                                                </div>
+                                                <div>
+                                                        <input type="text" id="hovaten" class="input-1" placeholder="Họ và tên">
+                                                        <input type="password"  id="matKhau" class="input-1" placeholder="Mật khẩu mới">
+                                                        <input type="password" id="nhaplaiMK" class="input-1" placeholder="Nhập lại mật khẩu mới">
+                                                        <input type="email" id="Email" class="input-1" placeholder="Email nếu có">
+                                                </div>
+                                                <div class="check">
+                                                        <input type="checkbox" id="agree1" class="agree-1">
+                                                        <label for="agree1">Tôi ĐỒNG Ý với</label>
+                                                        <a href="https://tracuuthansohoc.com/dieu-khoan-su-dung/" class="agree-2">điều khoản sử dụng</a>
+                                                </div>
+                                                <div class="button">
+                                                        <input type="button" class="button-1" onclick="check()" value="Đăng ký">
+                                                </div>
+                                                <div class="dai1">
+                                                        <span style="color: white;margin-right: 1rem !important;">Bạn đã có tài khoản?  </span> 
+                                                        <a href="dangnhap.html" style="color: white; text-decoration: none;"> Đăng nhập ngay</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </form>
+                </div>
+         </div>
+
+         <script>
+                function check(){
+                        var select = document.getElementById("mySelect").value;
+
+                        var phone = Number(document.getElementById("Phone").value);
+
+                        var name = document.getElementById("hovaten").value;
+                        var testName=/^([a-zA-Z\s]{6,})$/;
+
+                        var pass = document.getElementById("matKhau").value;
+                        var textpass = /^(?=\S+$).{6,}$/;
+
+                        var enterPass = document.getElementById("nhaplaiMK").value;
+
+                        var email = document.getElementById("Email").value;
+                        var textEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+                        if(select == -99)
+                                alert("Chọn quốc gia");
+                        else if(phone == "" || Number.isInteger(phone)==false)
+                                alert("Số điện không đúng định dạng");
+                        else if(name == "" || testName.test(name) == true)
+                                alert("Tên sai định dạng");
+                        else if(name.includes(' ') == false)
+                                alert("Tên phải có dấu cách");
+                        else if(pass == "" || textpass.test(pass) == false)
+                                alert("Mật khẩu tối thiểu 6 ký tự");
+                        else if(pass.includes(" ") == true)
+                                alert("Mật khẩu không được có khoảng trống");
+                        else if(enterPass != pass )
+                                alert("Mật khẩu nhập lại ko giống");
+                        else if( textEmail.test(email) == false)
+                                alert("Email ko hợp lệ");
+                        else{
+                                alert("Đăng ký thành công");
+                        }
+                }
+         </script>
+</body>
+
+</html>

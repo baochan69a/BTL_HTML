@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dangnhap.css">
+        <title>Đăng nhập</title>
+</head>
+<body>
+        <div class="main-box">
+                <div class="box_dai">
+                        <div>
+                                <a href="#" class="text-white forn-size headed_dai">
+                                        <img src="img/logotsh.png" class="logo-size" alt="logo">
+                                        Tra cứu thần số học
+                                </a>
+                        </div>
+                        <div class="font">
+                                <h3>Đăng nhập</h3>
+                        </div>
+                        <form action="login_dai">
+                                <div class="form-group">
+                                        <div class="form-row">
+                                                <div class="col-4"> 
+                                                        <select id="country" class="country-select">
+                                                                <option value="">-Chọn quốc gia-</option>
+                                                                <option value="+84">Việt Nam (+84)</option>
+                                                                <option value="+1">Mỹ (+1)</option>
+                                                                <option value="+81">Nhật Bản (+81)</option>
+                                                                <option value="+82">Hàn Quốc (+82)</option>
+                                                                <option value="+44">Anh (+44)</option>
+                                                                <option value="+33">Pháp (+33)</option>
+                                                                <option value="+49">Đức (+49)</option>
+                                                                <option value="+91">Ấn Độ (+91)</option>
+                                                                <option value="+55">Brazil (+55)</option>
+                                                                <option value="+61">Úc (+61)</option>
+                                                                <option value="+34">Tây Ban Nha (+34)</option>
+                                                                <option value="+39">Ý (+39)</option>
+                                                                <option value="+46">Thụy Điển (+46)</option>
+                                                                <option value="+41">Thụy Sĩ (+41)</option>
+                                                                <option value="+7">Nga (+7)</option>
+                                                                <option value="+52">Mexico (+52)</option>
+                                                                <option value="+65">Singapore (+65)</option>
+                                                                <option value="+27">Nam Phi (+27)</option>
+                                                                <option value="+61">New Zealand (+61)</option>
+                                                                <option value="+90">Thổ Nhĩ Kỳ (+90)</option>
+                                                                <option value="+66">Thái Lan (+66)</option>
+                                                                <option value="+62">Indonesia (+62)</option>
+                                                                <option value="+63">Philippines (+63)</option>
+                                                                <option value="+353">Ireland (+353)</option>
+                                                                <option value="+45">Đan Mạch (+45)</option>
+                                                                <option value="+32">Bỉ (+32)</option>
+                                                                <option value="+420">Cộng hòa Czech (+420)</option>
+                                                                <option value="+381">Serbia (+381)</option>
+                                                        </select>
+                                                        <input type="text" id="Phone" class="phone-input" placeholder="Số điện thoại nhận mã kích hoạt">
+                                                </div>
+                                                <div>
+                                                        <input type="password" id="passWord" class="input-1" placeholder="Mật khẩu">
+                                                </div>
+                                                <div class="check">
+                                                        <input type="checkbox" id="agree1" class="agree-1">
+                                                        <label for="agree1">Ghi nhơ đăng nhập</label>
+                                                        <a href="quenmk.html" class="agree-2">Quên mật khẩu?</a>
+                                                </div>
+                                                <div class="button">
+                                                        <input type="button" class="button-1" onclick="check()" value="Đăng nhập">
+                                                </div>
+                                                <div class="dai1">
+                                                        <span style="color: yellow;margin-right: 1rem !important;">Bạn chưa có tài khoản?  </span> 
+                                                        <a href="dangky.html" style="color: white; text-decoration: none;"> <b>Đăng ký ngay</b></a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </form>
+                </div>
+         </div>
+        <div class="ngonngu">
+                Ngôn ngữ:
+               <a href="#" style="color: blue;text-decoration: none;"><b>•Tiếng việt</b></a>|<a href="#" style="color: blue;text-decoration: none;">English</a>|<a href="#"style="color: blue;text-decoration: none;" >Português (Bồ Đào Nha)</a>|<a href="#" style="color: blue;text-decoration: none;">Español (Tây Ban Nha)</a>|<a href="#" style="color: blue;text-decoration: none;">Français (Tiếng Pháp)</a>|<a href="#" style="color: blue;text-decoration: none;">Deutsch (Tiếng Đức)</a>|<a href="#" style="color: blue;text-decoration: none;">中文-简体 (Trung Quốc)</a>|<a href="#" style="color: blue;text-decoration: none;">한국어 (Hàn Quốc)</a>|<a href="#" style="color: blue;text-decoration: none;">日本語 (Nhật Bản)</a>|<a href="#" style="color: blue;text-decoration: none;">ภาษาไทย (Thái Lan)</a>|<a href="#" style="color: blue;text-decoration: none;">Bahasa Indonesia</a>|<a href="#" style="color: blue;text-decoration: none;">Bahasa Malaysia</a>
+        </div>
+        
+</body>
+<script>
+        function check(){
+                var phone = Number(document.getElementById("Phone").value);
+                var textnumbers = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+                var pass = document.getElementById("passWord").value;
+                var textpass = /^(?=\S+$).{6,}$/;
+
+                if(phone == "" || Number.isInteger(phone) == false )
+                        alert("Số điện thoại ko hợp lệ");
+                else if(pass == "" || textpass.test(pass) == false)
+                        alert("Mật khẩu tối thiểu là 5 ký tự");
+                else if(pass.includes(" ") == true)
+                        alert("Mật khẩu ko được có khoảng trống");
+                else{
+                        alert("Đăng nhập thành công");
+                        var info = "Họ tên: " + name + "</br>" + "Số điện thoại: " + phone;
+                        document.getElementById("ShowThongTin").innerHTML = info;
+                }
+                        
+        }
+</script>
+</html>
