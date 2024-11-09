@@ -1,0 +1,242 @@
+button.copy-button{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-transform: none;
+    overflow: visible;
+}
+.start-header {
+    opacity: 1;
+    padding: 10px 0;
+    background: linear-gradient(to bottom, #001c31 36%, #17143f 93%);
+    transition: all 0.3s ease-out;
+}
+.text-white {
+    color: #fff !important;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand {
+    margin-left: 2px;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.start-header .navbar-brand img {
+    height: 50px;
+    width: auto;
+    transition: all 0.3s ease-out;
+    margin: -10px 0;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+.navbar-collapse {
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-expand-md .navbar-nav {
+    flex-direction: row;
+}
+.py-md-0 {
+    padding-bottom: 0 !important;
+}
+.py-md-0 {
+    padding-top: 0 !important;
+}
+.ml-auto {
+    margin-left: auto !important;
+}
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.start-header .nav-item {
+    position: relative;
+    padding: 8px 0px;
+    transition: all 200ms linear;
+}
+.pl-md-0 {
+    padding-left: 0 !important;
+}
+.ml-md-4 {
+    margin-left: 1.5rem !important;
+}
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+ul li {
+    list-style: none;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+}
+.start-header .nav-link {
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
+}
+.start-header .nav-link {
+    color: #FBF9FA !important;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+.navbar-collapse {
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-expand-md .navbar-nav {
+    flex-direction: row;
+}
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ul {
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+ul { 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.pu-box-radio {
+    border: 1px solid #dddddd;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.m-t-15{
+    margin-top: 15px;
+}
+.m-b-15{
+    margin-bottom: 15px;
+}
+.m-b-5{
+    margin-bottom: 5px;
+}
+.m-t-5{
+    margin-top: 5px;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+.m-t-10{
+    margin-bottom: 10px;
+}
+.blinker{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    0% {
+      opacity: 0;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.m-t-10{
+    margin-top: 10px;
+}
+.m-l-10{
+    margin-left: 10px;
+}

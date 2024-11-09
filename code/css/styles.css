@@ -223,7 +223,7 @@
     100% {transform: rotate(360deg);}
 }
 .sign-bg{
-    background: url(img/sign-bg.png) no-repeat center;
+    background: url(../img/sign-bg.png) no-repeat center;
     position: absolute;
     top: 0;
     right: 0;
@@ -245,7 +245,7 @@
 }
 
 .sign-image{
-    background: url(img/sign-img-bg.png);
+    background: url(../img/sign-img-bg.png);
     position: absolute;
     width: 90%;
     height: 90%;
@@ -260,7 +260,7 @@
     animation-duration: 2s;
 }
 .sign-image2{
-    background: url(img/sign-9-bg.jpg);
+    background: url(../img/sign-9-bg.jpg);
     position: absolute;
     width: 90%;
     height: 90%;
@@ -491,7 +491,7 @@ section#report-details ul li {
 }
 
 .mandala-container{
-    background: url(img/mandala-bg.png) no-repeat center;
+    background: url(../img/mandala-bg.png) no-repeat center;
     margin: 20px auto 10px;
     width: 95%;
     height: 1000px;
@@ -502,7 +502,7 @@ section#report-details ul li {
     text-align: center;
 }
 .madala-object{
-    background: url(img/mandala-object-1.png) no-repeat center;
+    background: url(../img/mandala-object-1.png) no-repeat center;
     top: 4%;
     left: 4.5%;
     width: 91%;
@@ -604,8 +604,10 @@ div{
 
 
 body{
-    background: url(img/bg.jpg);
-    background-size: cover !important;
+    background: url(../img/bg.jpg);
+    background-size: cover !important; /* Hiển thị toàn bộ hình mà không cắt xén */
+    background-position: center; /* Căn giữa hình */
+    background-repeat: no-repeat; /* Không lặp lại hình */
     background-position: center;
     display:block;
     margin: 0px;

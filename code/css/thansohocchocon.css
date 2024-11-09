@@ -423,7 +423,7 @@ section#report-details ul li {
 
 
 .madala-object{
-    background: url(img/mandala-object-1.png) no-repeat center;
+    background: url(../img/mandala-object-1.png) no-repeat center;
     top: 4%;
     left: 4.5%;
     width: 91%;
@@ -525,7 +525,7 @@ div{
 
 
 body{
-    background: url(img/nentimso.jpg);
+    background: url(../img/bg_kid.jpg);
     background-size: cover !important;
     background-position: center;
     display:block;

@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="code/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Công Cụ Lập Báo Cáo Thần Số Học Và Luận Giải Chi Tiết Nhất</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="code/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- sdfsdfsdf -->
@@ -21,10 +21,35 @@
                 <div class="col-12">
                     <nav class="navbar nav-expand-md">
                         <a class="navbar-brand text-white" href="thansohoc.html">
-                            <img src="img/tracuuthansohoc.png" alt class="nav-img-size">
+                            <img src="code/img/tracuuthansohoc.png" alt class="nav-img-size">
                         </a>
                         <div class="navbar-collapse text-left" id="navBarSupportedContent">
                             <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Giới thiệu
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 0 !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" href="code/html/gioithieutsh.html">
+                                                <i class="fas fa-tint"></i>
+                                                Giới thiệu thần số học
+                                            </a>
+                                            <a class="dropdown-item" href="code/html/dieukhoan.html">
+                                                <i class="fas fa-child"></i>
+                                                Điều khoản sử dụng
+                                            </a>
+                                            <a class="dropdown-item" href="code/html/baomat.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Chính sách bảo mật
+                                            </a>
+                                            <a class="dropdown-item" href="code/html/lienhe.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Liên hệ
+                                            </a>
+                                        </div>
+                                    </div>  
+                                </li>
                                 <li class="nav-item pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-search"></i>
@@ -36,19 +61,19 @@
                                                 <i class="fas fa-tint"></i>
                                                 Thần số học
                                             </a>
-                                            <a class="dropdown-item" href="thansohocchocon.html">
+                                            <a class="dropdown-item" href="code/html/thansohocchocon.html">
                                                 <i class="fas fa-child"></i>
                                                 Thần số học cho con
                                             </a>
-                                            <a class="dropdown-item" href="thansohoc.html">
+                                            <a class="dropdown-item" href="code/html/disc.html">
                                                 <i class="fas fa-pen-square"></i>
                                                 Trắc nghiệm DISC
                                             </a>
-                                            <a class="dropdown-item" href="thansohoc.html">
+                                            <a class="dropdown-item" href="code/html/MBTI.html">
                                                 <i class="fas fa-pen-square"></i>
                                                 Trắc nghiệm MBTI
                                             </a>
-                                            <a class="dropdown-item" href="tuvi.html">
+                                            <a class="dropdown-item" href="code/html/tuvi.html">
                                                 <i class="fas fa-tint"></i>
                                                 Lập lá số tử vi
                                             </a>
@@ -62,15 +87,15 @@
                                     </a>
                                     <div class="dropdown-menu" style="min-width: 250px; right: 0 !important; left:auto; ">
                                         <div style="position: relative;">
-                                            <a class="dropdown-item" href="thansohoc.html">
+                                            <a class="dropdown-item" href="code/html/purchase.html">
                                                 <i class="fas fa-tint"></i>
                                                 Mua Vip thần số học
                                             </a>
-                                            <a class="dropdown-item" href="thansohoc.html">
+                                            <a class="dropdown-item" href="code/html/purchase_kid.html">
                                                 <i class="fas fa-child"></i>
                                                 Mua Vip thần số học cho con
                                             </a>
-                                            <a class="dropdown-item" href="thansohoc.html">
+                                            <a class="dropdown-item" href="code/html/purchase_tuvi.html">
                                                 <i class="fas fa-pen-square"></i>
                                                 Mua Vip luận giải tử vi
                                             </a>
@@ -79,10 +104,10 @@
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <p class="flex_dai">
-                                    <a class="nav-link" href="dangky.html" >
+                                    <a class="nav-link" href="code/html/dangky.html" >
                                         Đăng ký / 
                                     </a>
-                                   <a class="nav-link" href="dangnhap.html"> Đăng nhập</a>
+                                   <a class="nav-link" href="code/html/dangnhap.html"> Đăng nhập</a>
                                     </p>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
@@ -492,7 +517,7 @@
                     <div>
                         <div class="container" style="position: relative; padding: 0;">
                             <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="https://blog.nature.org/wp-content/uploads/2022/01/AZ_AZ160526_D300-scaled.jpg" width="350" height="197"></a>
-                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="img/logo.png" height="50" width="50" style="position: absolute;top: 10px; left: 10px;border: 2px solid white;"></a>
+                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="code/img/logo.png" height="50" width="50" style="position: absolute;top: 10px; left: 10px;border: 2px solid white;"></a>
                             <div style=" position: absolute; top: 10px; left: 65px;">
                                 <a href="https://www.facebook.com/2307265249546463?ref=embed_page" style="max-width: 240px; color: #fff;font-size: 18px;display: inline-block; overflow: hidden; text-overflow: ellipsis;white-space: nowrap;line-height: 1.35;font-weight: 400;margin-bottom: -5px;" target="_blank">
                                     Tra Cứu Thần Số Học Louis Nguyễn
@@ -574,6 +599,6 @@
     
     </footer>
     
-    <script src="js/main.js"></script>
+    <script src="code/js/main.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@ body {
     height: 95vh;
     display: flex;
     justify-content: center !important; 
-    background: url(img/vutrunganha.jpg);
+    background: url(../img/vutrunganha.jpg);
     font-size: 12px !important;
     flex-direction: column;
 }
