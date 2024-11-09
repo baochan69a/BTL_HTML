@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="MBTI.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Cụ Lập Báo Cáo Thần Số Học Và Luận Giải Chi Tiết Nhất</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="start-header bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar nav-expand-md">
+                        <a class="navbar-brand text" href="thansohoc.html">
+                            <img src="img/tracuuMBTI.png" alt class="nav-img-size">
+                        </a>
+                        <div class="navbar-collapse text-left" id="navBarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-md-0 ml-0 ml-md-4 m-t-10">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-search"></i>
+                                        Tra cứu
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 330px !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-tint"></i>
+                                                Thần số học
+                                            </a>
+                                            <a class="dropdown-item" href="thansohocchocon.html">
+                                                <i class="fas fa-child"></i>
+                                                Thần số học cho con
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Trắc nghiệm DISC
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Trắc nghiệm MBTI
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-tint"></i>
+                                                Lập lá số tử vi
+                                            </a>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 m-t-10">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-shopping-bag"></i>
+                                        Mua Vip
+                                    </a>
+                                    <div class="dropdown-menu" style="min-width: 250px; right: 200px !important; left:auto; ">
+                                        <div style="position: relative;">
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-tint"></i>
+                                                Mua Vip thần số học
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-child"></i>
+                                                Mua Vip thần số học cho con
+                                            </a>
+                                            <a class="dropdown-item" href="thansohoc.html">
+                                                <i class="fas fa-pen-square"></i>
+                                                Mua Vip luận giải tử vi
+                                            </a>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 m-t-10">
+                                    <p class="flex_dai">
+                                    <a style="color: #007bff;font-weight: 700;
+                                    position: relative;
+                                    padding: 5px 0 !important;
+                                    font-family: Arial;" href="dangky.html" >
+                                        Đăng ký / 
+                                    </a>
+                                   <a style="color: #007bff;font-weight: 700;
+                                   position: relative;
+                                   padding: 5px 0 !important;
+                                   font-family: Arial;" href="dangnhap.html"> Đăng nhập</a>
+                                    </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="container" unselectable="on" style="display: table;min-height: calc(100vh - 100px);padding: 1px 10px;">
+        <div class="MBTI">
+            <div class="dai_MBTI ">
+                <h1 class="text-primary" style="font-size: 1.5rem;font-weight: bold;">BÀI TRẮC NGHIỆM TÍNH CÁCH MBTI</h1>
+                <div><img class="img-MBTI" src="img/mbti.png" alt="MBTI"></div>
+                <div class="text-primary" style="font-size: 1.2rem;font-weight: bold;margin-top: 10px;">Chọn đáp án giống bạn nhất trong mỗi câu
+                </div>
+            </div>
+            <div id="MBTI_QUESTION" class="pos-relative m-b-20" style="height: 143.361px;">
+                <div class="mbti-div" qid="40" >
+                    <table class="mbti-table" qid="40">
+                        <colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 1/50: Bạn chọn làm việc ở môi trường:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Quy củ, kỉ luật</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Năng động, sáng tạo</td>
+                                </tr></tbody></table></div>
+        <div class="mbti-div" qid="4">
+            <table class="mbti-table" qid="4"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 2/50: Trong một nhóm bạn, khi mọi người nói về chủ đề mới lạ, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Trao đổi cùng để biết thêm thông tin</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Không đề cập gì vì mình không hiểu biết ở chủ đề này</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="33"><table class="mbti-table" qid="33"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 3/50: Quy tắc đầu tư của bạn là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tìm hiểu, nghiên cứu thật kĩ</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">May rủi, chấp nhận mạo hiểm</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="36"><table class="mbti-table" qid="36"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 4/50: Hoạt động thu hút bạn là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Hoạt động du lịch, dịch chuyển</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đọc sách, thư giãn</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="44"><table class="mbti-table" qid="44"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 5/50: Bạn thích:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sự kiện được chuẩn bị chỉn chu</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sự kiện bất ngờ</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="2"><table class="mbti-table" qid="2"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 6/50: Khi rảnh bạn thường:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Ở nhà</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đi chơi</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="12"><table class="mbti-table" qid="12"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 7/50: Bạn thích:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Gặp gỡ những người mới</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Ở một mình hoặc với những người mà bạn biết rõ</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="24"><table class="mbti-table" qid="24"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 8/50: Cách tiếp cận vấn đề của bạn là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Nhìn vào toàn bộ bức tranh tổng thể</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sắp xếp thông tin theo từng bước, chi tiết</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="31"><table class="mbti-table" qid="31"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 9/50: Bạn sẽ chơi với 1 người:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có vẻ ngoài đẹp</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có cùng suy nghĩ với bạn</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="26"><table class="mbti-table" qid="26"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 10/50: Mẫu người đồng nghiệp bạn mong muốn:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sáng tạo, nhiều ý tưởng mới</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Xử lý tình huống tốt</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="49"><table class="mbti-table" qid="49"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 11/50: Khi bạn được giao để làm một điều gì đó (bắt buộc) trong một thời gian nhất định, bạn cảm thấy:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thật tốt để có thể lập kế hoạch cho phù hợp</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có một chút khó chịu vì bị ràng buộc</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="18"><table class="mbti-table" qid="18"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 12/50: Khi quyết định, bạn có xu hướng:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Cân nhắc, lựa chọn dựa trên những tiêu chí, tiêu chuẩn.</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thấy phù hợp là được</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="38"><table class="mbti-table" qid="38"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 13/50: Đứng trước một vấn đề nan giải, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tuân thủ quy tắc đã có sẵn</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Dựa theo cảm nhận và phán đoán của mình</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="19"><table class="mbti-table" qid="19"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 14/50: Khi giận dỗi một người, bạn thường:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Trực tiếp nói rõ lý do</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Hành động để người đó thấy mình khó chịu và tự tìm lý do</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="13"><table class="mbti-table" qid="13"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 15/50: Khi bạn đã làm xong việc của mình nhưng vẫn còn công việc khác của nhóm, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Nhận làm</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Để người khác làm</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="5"><table class="mbti-table" qid="5"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 16/50: Khi bạn đi dự 1 buổi tiệc:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chủ động bắt chuyện với người mình không quen</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Im lặng và đợi mọi người nói chuyện với mình</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="22"><table class="mbti-table" qid="22"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 17/50: Khi ai đó nhờ vả bạn 1 điều gì đó, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chấp nhận khi bạn cảm thấy vui vẻ</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chấp nhận khi đã suy nghĩ kĩ lưỡng</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="45"><table class="mbti-table" qid="45"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 18/50: Bạn đã:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chuẩn bị sẵn khoản kinh phí phòng trường hợp rủi ro</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đến khi có chuyện sẽ tìm cách đối phó</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="34"><table class="mbti-table" qid="34"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 19/50: Bạn đánh giá 1 người dựa vào:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Cách hành động</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Cách truyền đạt</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="1"><table class="mbti-table" qid="1"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 20/50: Khi được sắp xếp làm việc với 1 người mới, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Dễ dàng làm việc cùng</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Không quen với cách làm việc của người mới</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="14"><table class="mbti-table" qid="14"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 21/50: Bạn thích:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sử dụng cảm giác và niềm tin để đưa ra ý kiến, lựa chọn</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sử dụng thông tin chi tiết, phân tích cụ thể và lý do rõ ràng để đưa ra phán quyết</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="8"><table class="mbti-table" qid="8"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 22/50: Bạn thích đến nơi:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sôi động, đông đúc</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thoáng mát, không đông người</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="15"><table class="mbti-table" qid="15"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 23/50: Khi đánh giá một vấn đề (con người, sự vật,…) bạn có xu hướng:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đặt tình cảm lên trên lý luận logic</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đặt lý luận logic lên trên tình cảm</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="7"><table class="mbti-table" qid="7"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 24/50: Trong buổi tất niên công ty, bạn sẽ thường nói chuyện với:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Người quen, hầu như không nói chuyện với người khác</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Ai có thể tiếp cận thì đều nói chuyện</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="48"><table class="mbti-table" qid="48"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 25/50: Một vấn đề khó đã được cấp trên hướng dẫn cách giải quyết chi tiết, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tin tưởng và làm theo những gì được hướng dẫn</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tìm thêm những giải pháp mới tối ưu hơn</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="10"><table class="mbti-table" qid="10"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 26/50: Khi gặp vấn đề hay khó khăn trong cuộc sống, bạn thường:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tự mình giải quyết</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chia sẻ với mọi người để nhận lời khuyên</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="16"><table class="mbti-table" qid="16"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 27/50: Bạn quyết định 1 việc dựa theo:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Lý trí</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Cảm tính</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="9"><table class="mbti-table" qid="9"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 28/50: Bạn thích:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có càng nhiều bạn bè càng tốt</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có một số người bạn rất thân</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="25"><table class="mbti-table" qid="25"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 29/50: Bạn đánh giá người đứng đầu 1 tập đoàn lớn là người:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Giỏi giang</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Đặc biệt</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="42"><table class="mbti-table" qid="42"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 30/50: Bạn bắt đầu chuỗi công việc trong một ngày bằng cách:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sắp xếp theo thứ tự quan trọng</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Ngẫu nhiên làm việc</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="6"><table class="mbti-table" qid="6"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 31/50: Bạn thích trở thành một người:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Người biết lắng nghe, thích không gian một mình</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Người thích nói chuyện, giao lưu</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="41"><table class="mbti-table" qid="41"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 32/50: Bạn muốn sinh nhật mình được:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chuẩn bị trước để tổ chức</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Được tổ chức bất ngờ từ người khác</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="29"><table class="mbti-table" qid="29"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 33/50: Bạn đánh giá 1 người theo hướng:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Chủ quan, dựa theo cảm nhận của bản thân</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Khách quan, lắng nghe những nhận xét từ người khác</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="39"><table class="mbti-table" qid="39"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 34/50: Đối với việc quản lý chi tiêu, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Lập kế hoạch chi tiêu rõ ràng</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thích gì mua đó</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="47"><table class="mbti-table" qid="47"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 35/50: Cách bạn hoàn thành một công việc là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Kiên trì làm cho đến khi xong việc mới nghỉ</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Khi nào thấy hứng thú thì làm, miễn hoàn thành đúng tiến độ là được</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="17"><table class="mbti-table" qid="17"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 36/50: Để chứng minh 1 vấn đề, bạn thường:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thu thập số liệu phân tích</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thu thập ý kiến đánh giá</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="32"><table class="mbti-table" qid="32"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 37/50: Tỉ lệ thành công của dự án bạn đang làm là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Một con số (trong khoảng) xác định</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tuỳ thuộc nhiều yếu tố</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="23"><table class="mbti-table" qid="23"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 38/50: Bạn lựa chọn chuyên ngành học là do:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Bạn thực sự muốn học</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Nhiều người học hoặc gia đình mong muốn</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="21"><table class="mbti-table" qid="21"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 39/50: Đâu là câu bạn muốn nghe:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Bạn thật giỏi</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Bạn thật giàu tình cảm</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="28"><table class="mbti-table" qid="28"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 40/50: Bạn thích làm công việc:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Nghiên cứu, phân tích</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sáng tạo</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="11"><table class="mbti-table" qid="11"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 41/50: Đi dự đám cưới đồng nghiệp, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Ăn xong thì ra về</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Góp vui hết mình đến cuối cùng</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="35"><table class="mbti-table" qid="35"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 42/50: Điều khiến bạn không thể chịu nổi trong mối quan hệ là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sự mập mờ</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Sự nhàm chán</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="30"><table class="mbti-table" qid="30"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 43/50: Bạn thấy yếu tố quan trọng khi làm việc là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Kết quả</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Quá trình</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="37"><table class="mbti-table" qid="37"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 44/50: Bạn là người:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có kế hoạch cho tương lai</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Thuận theo tự nhiên</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="46"><table class="mbti-table" qid="46"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 45/50: Khi đã chốt 1 vấn đề, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Không thay đổi nữa</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Có thể phải thay đổi do 1 số yếu tố tác động</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="20"><table class="mbti-table" qid="20"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 46/50: Nếu được lựa chọn bạn sẽ là:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Người nghệ sĩ, hoạt động nghệ thuật</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Nhân viên văn phòng bình thường</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="43"><table class="mbti-table" qid="43"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 47/50: Khi có sự cố xảy ra, bạn sẽ:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Làm đúng theo kế hoạch đã dự phòng</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Phản ứng ngay lập tức với sự cố</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="3"><table class="mbti-table" qid="3"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 48/50: Bạn thích kiểu làm việc:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Cá nhân</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Tập thể</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="27"><table class="mbti-table" qid="27"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 49/50: Bạn cho rằng không nên:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Quá mơ mộng</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Quá thực tế</td>
+                                </tr></tbody></table></div><div class="mbti-div" qid="50"><table class="mbti-table" qid="50"><colgroup><col style="width: 32px;font-size: 1em"><col style="width: auto;"></colgroup><tbody>
+                <tr style="border-top: none;">
+                    <td class="text font-weight-bold" colspan="2" style="padding:10px 0!important;">
+                        Câu 50/50: Bạn thích:
+                    </td>
+                </tr><tr as="a" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Được tự do làm mọi việc</td>
+                                </tr><tr as="b" class="answer">
+                                    <td class="chb"><i class="far fa-square"></i></td>
+                                    <td class="text">Lên kế hoạch trước những gì phải làm</td>
+                                </tr></tbody></table></div><div class="mbti-div mbti-info" qid="0">
+                            <div style="margin: auto;max-width: 600px;min-height: 190px;">
+                                <div class="form-row">
+                                    <div class="col-8">
+                                        <p class="m-b-5 font-weight-bold">Nhập họ tên:</p>
+                                        <div class="input-group">
+                                            <input type="text" id="mbti_name" class="form-control" placeholder="Nhập họ tên của bạn">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="m-b-5 font-weight-bold">Giới tính:</p>
+                                        <div class="input-group">
+                                            <select class="custom-select" id="mbti_gender">
+                                                <option value="0">Giới tính</option>
+                                                <option value="1">Nam</option>
+                                                <option value="2">Nữ</option>
+                                                <option value="3">Khác</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-t-10">
+                                    <p class="m-b-5 font-weight-bold">Ngày/tháng/năm sinh:</p>
+                                    <div class="form-row">
+                                        <div class="col-4">
+                                            <select class="custom-select" id="mbti_day"><option value="01">Ngày 01</option><option value="02">Ngày 02</option><option value="03">Ngày 03</option><option value="04">Ngày 04</option><option value="05">Ngày 05</option><option value="06">Ngày 06</option><option value="07">Ngày 07</option><option value="08">Ngày 08</option><option value="09">Ngày 09</option><option value="10">Ngày 10</option><option value="11">Ngày 11</option><option value="12">Ngày 12</option><option value="13">Ngày 13</option><option value="14">Ngày 14</option><option value="15">Ngày 15</option><option value="16">Ngày 16</option><option value="17">Ngày 17</option><option value="18">Ngày 18</option><option value="19">Ngày 19</option><option value="20">Ngày 20</option><option value="21">Ngày 21</option><option value="22">Ngày 22</option><option value="23">Ngày 23</option><option value="24">Ngày 24</option><option value="25">Ngày 25</option><option value="26">Ngày 26</option><option value="27">Ngày 27</option><option value="28">Ngày 28</option><option value="29">Ngày 29</option><option value="30">Ngày 30</option><option value="31">Ngày 31</option></select>
+                                        </div>
+                                        <div class="col-4">
+                                            <select class="custom-select" id="mbti_month"><option value="01">Tháng 01</option><option value="02">Tháng 02</option><option value="03">Tháng 03</option><option value="04">Tháng 04</option><option value="05">Tháng 05</option><option value="06">Tháng 06</option><option value="07">Tháng 07</option><option value="08">Tháng 08</option><option value="09">Tháng 09</option><option value="10">Tháng 10</option><option value="11">Tháng 11</option><option value="12">Tháng 12</option></select>
+                                        </div>
+                                        <div class="col">
+                                            <input type="number" id="mbti_year"  class="form-control" placeholder="Năm sinh">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div><div id="MBTI_TOOGLE"><div class="row">
+                            <div class="col-6">
+                                <div class="text-right"><button class="btn btn-primary mbti_prev" style="border-radius: 20px;"><i class="fas fa-chevron-circle-left"></i> Câu trước</button></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="text-left"><button class="btn btn-primary mbti_next" style="border-radius: 20px;">Câu sau <i class="fas fa-chevron-circle-right"></i></button></div>
+                            </div>
+                        </div></div>
+                        <div id="MBTI_RESULT" style="display: none;" code="">
+                            <div id="canvas_div">
+                                <canvas id="canvas_result"></canvas>
+                            </div>
+                            <div id="result_content"></div>
+                        </div>
+                        <div id="MBTI_GUIDE" class="text-primary">
+                                    </div>
+                    </div>
+                </section>
+    
+    
+    
+    
+
+    <footer style="margin-top: 50px; background-color: #820a75; background-position: center 20px;">
+        <div class="container" style="padding: 20px 15px;">
+            <div class="row">
+                <div class="col-lg-4" style="flex: 0 0 33.333333%;">
+                    <div style="display: inline-block;line-height: inherit;">
+                        <img src="https://xem.tracuuthansohoc.com/uploads/images/logo-white.png" style="width: 60px;"> <span style="font-size: 25px;color: white;">Tra cứu thần số học</span>
+                    </div>
+                    <div>
+                        <div class="container" style="position: relative; padding: 0;">
+                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="https://blog.nature.org/wp-content/uploads/2022/01/AZ_AZ160526_D300-scaled.jpg" width="350" height="197"></a>
+                            <a href="https://www.facebook.com/tracuuthansohoc?ref=embed_page"><img src="img/logo.png" height="50" width="50" style="position: absolute;top: 10px; left: 10px;border: 2px solid white;"></a>
+                            <div style=" position: absolute; top: 10px; left: 65px;">
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" style="max-width: 240px; color: #fff;font-size: 18px;display: inline-block; overflow: hidden; text-overflow: ellipsis;white-space: nowrap;line-height: 1.35;font-weight: 400;margin-bottom: -5px;" target="_blank">
+                                    Tra Cứu Thần Số Học Louis Nguyễn
+                                </a>
+                                <div style="color: #fff;font-size: 12px;">19.373 người theo dõi</div>
+                            </div>
+                            <div style="position: absolute;bottom: 0;right: 0;left: 0;padding: 8px;">
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" target="_blank">
+                                    <button style="border: 1px solid white;line-height: 22px; background-color: white;color: white;font-size: 12px;border-radius: 2px;padding:0 8px;font-weight: bold">
+                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/UXtr_j2Fwe-.png" width="12px" height="12px" style="overflow: hidden; object-fit: cover; "> Theo dõi trang
+                                    </button>
+                                </a>
+                                <a href="https://www.facebook.com/2307265249546463?ref=embed_page" target="_blank">
+                                    <button style="border: 1px solid white;line-height: 22px; background-color: white;color: white;font-size: 12px;border-radius: 2px;padding:0 8px; position: absolute; right: 10px;font-weight: bold">
+                                    <img src="https://tse3.mm.bing.net/th?id=OIP.jGtsTua7sYWQGnJN6iiClAHaHa&pid=Api&P=0&h=220" width="15px" height="15px" style="overflow: hidden; object-fit: cover; "> Chia sẻ
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="color: white !important;margin-bottom: 10px; margin-top: 20px;">Hãy chia sẻ trang web để lan tỏa giá trị bạn nhé!</p>
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftracuuthansohoc.com%2F&amp;layout=button_count&amp;size=large&amp;appId=885165052298832&amp;width=112&amp;height=28" width="112" height="28" style="border:none;overflow:hidden"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="flex: 0 0 33.333333%">
+                    <h6 style="color: #fff; margin-bottom: 25px; padding-top: 10px;">THÔNG TIN CHUYỂN KHOẢN THANH TOÁN</h6>
+                    <div style="font-size:13px;line-height: 2; text-align: left !important;">
+                        <p style="margin-bottom: 10px; color: white;">
+                            <b>- Vietnamese Bank: Vietcombank</b><br>
+                            STK: <span id="text-to-copy1">9962984269</span> <button class="copy-button" data-copy-target="text-to-copy1" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button><br>
+                            Chủ TK: Nguyễn Thị Thu Trang                    </p>
+                        <p style="margin-bottom: 10px; color: white;">
+                            <b>- Momo: Nguyễn Thị Thu Trang <span id="text-to-copy2">0962984269</span> </b>
+                            <button class="copy-button" data-copy-target="text-to-copy2" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button>
+                        </p>
+                        <p style="margin-bottom: 10px; color: white;">
+                            <b>* NỘI DUNG CHUYỂN KHOẢN: số điện thoại của bạn</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="flex: 0 0 33.333333%">
+                    <h6 style="color: #fff; margin-bottom: 25px; padding-top: 10px; font-weight: 500 ;">LIÊN HỆ</h6>
+                    <ul style="font-size:13px;line-height: 2; list-style: none;">
+                        <li><p class="content1" style="color: white;"><i style="font-size: 12px;font-weight: 900;display: inline-block;"></i> Hotline: <b id="text-to-copy3">0962984269</b> <button class="copy-button" data-copy-target="text-to-copy3" style="margin-left:5px;padding:1px 2px;vertical-align: middle;font-size: 12px;">Copy</button><br>
+                                <a href="https://zalo.me/0962984269" target="_blank"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-zalo-min.png" style="height:30px;margin-left:10px;margin-right:10px;"></a>
+                                <a href="https://wa.me/+84962984269" target="_blank"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-whatsapp-min.png" style="height:30px;margin-right:10px;margin-left:10px;"></a>
+                                <a href="sms:0962984269"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-sms-min.png" style="height:25px;margin-right:10px;"></a>
+                                <a href="tel:0962984269"><img src="https://xem.tracuuthansohoc.com/uploads/images/icon-call-min.png" style="height:25px;margin-right:10px;"></a>
+                            </p>
+                        </li>
+                        <li><p style="color: white;"><i class="fas fa-envelope"></i> Email: tracuuthansohoc@gmail.com</p></li>
+                        <li><p style="color: white;"><i class="fas fa-map-marker-alt"></i> Địa chỉ: 132 Hàm Nghi, Phường Bến Thành, Quận 1, TP Hồ Chí Minh.</p></li>
+                                            <li><a href="https://tracuuthansohoc.com/chinh-sach-bao-mat/"><p style="color: white;">Chính sách bảo mật</p></a></li>
+                        <li><a href="https://tracuuthansohoc.com/dieu-khoan-su-dung/"><p style="color: white;">Điều khoản sử dụng</p></a></li>
+                                            <li><a href="purchase"><p style="color: white;">Mua lượt Vip</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="border-top: 1px solid rgb(48, 48, 96); padding: 10px; text-align: center;color: white;display: block;">
+            <div class="container">
+                <p style="margin-top: 0; margin-bottom: 0 ;">Copyright ©2024 tracuuthansohoc.com | Louis Nguyễn | Thông tin trên trang web mang tính tham khảo.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

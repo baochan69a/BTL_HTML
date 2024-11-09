@@ -22,8 +22,7 @@
     margin-top: 20px;
 }
 .disc-div{
-    position: absolute;
-    margin-right: 100px;
+    display: absolute;
 }
 .disc-table{
     font-size: 1em;
@@ -52,4 +51,47 @@ table{
 }
 .checked2{
     color: red;
+}
+.pos-relative{
+    position: relative;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 1140px;
+}
+
+#DISC_QUESTION .disc-div {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+#DISC_QUESTION .disc-div:first-child {
+    opacity: 1;
+    transform: translateX(0); /* Phần tử đầu tiên không di chuyển */
+    visibility: visible;
+}
+
+#DISC_QUESTION .disc-div:nth-child(2 + n) {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%); /* Các phần tử khác bị đẩy sang ngoài */
+} 
+
+
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
 }
