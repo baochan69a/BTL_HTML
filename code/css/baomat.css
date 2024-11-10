@@ -4,7 +4,6 @@
     border-bottom: 1px solid #e8ffff;
 }
 .container{
-    max-width: 960px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -215,12 +214,25 @@ section#report-details ul li {
 .content1::before{
     content: "\1F4DE";
 }
-
-
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
 
 .box_dai1{
     padding: 10px 0;
-    background-color: rgb(252, 238, 255);
+    background-color: #af368929;
 }
 a{
     color: #af3689 !important;
